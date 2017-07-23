@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-var port = process.env.PORT || 3030;
+var port = process.env.PORT || 8000;
 var logger = require('morgan');
 var io = require('socket.io');
 
